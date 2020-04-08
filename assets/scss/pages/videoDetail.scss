@@ -1,0 +1,32 @@
+.video__info {
+    margin-top : 20px;
+    .video__title,
+    .video__views,
+    .video__description {
+        margin-top : 10px;
+    }
+    
+    a {
+        button {
+            min-width : 10vw;
+        }
+    }
+    .video__title {
+        font-size : 30px;
+        margin-top : 10px;
+        margin-bottom : 10px;
+    }
+    .video__views {
+        font-size : 16px;
+        margin-bottom : 10px;
+    }
+}
+.video__comments {
+    margin-top : 70px;
+    width : 100%;
+    display : flex;
+    justify-content : center;
+    .video__comment-number {
+        font-size : 18px;
+    }
+}
